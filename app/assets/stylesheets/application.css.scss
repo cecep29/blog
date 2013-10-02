@@ -9,5 +9,45 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require twitter/bootstrap
  */
+
+
+.navbar-header {
+  .navbar-brand {
+    font-size :20px;
+  }
+}
+footer {
+  margin-top: 300px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+
+
+

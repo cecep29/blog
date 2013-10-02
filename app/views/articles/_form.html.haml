@@ -1,0 +1,13 @@
+- if article.errors.any?
+  .control-grup.error
+    %h2
+      = pluralize(article.errors.count, "error")
+    %ul
+      - article.error.full_message.each do |msg|
+        %li = msg
+
+  .main-article-create.pull-left
+    .control-grup
+      = form.label :title
+      .controls = form.text_field :title
+      
