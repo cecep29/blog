@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require twitter/bootstrap
+*= require bootstrap-wysihtml5/b3
  */
 
 
@@ -46,6 +47,17 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+
+.btn-send-pasword{
+  padding-top:10px;
+}
+
+#size_textarea{ 
+  resize:horizontal; 
+  width:600px; 
+  height:200px; 
+  rows:4; cols:50;
 }
 
 
