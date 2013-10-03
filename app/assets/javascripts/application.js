@@ -14,16 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require twitter/bootstrap
-//= require bootstrap-wysihtml5/b3
 //= require tinymce
 //= require tinymce-jquery
 
 
 
  $( document ).ready(function() {
-        $('.wysihtml5').each(function(i, elem) {
-      $(elem).wysihtml5();
-    });
+       
         tinymce.init({
     selector: "textarea#elm1",
     theme: "modern",

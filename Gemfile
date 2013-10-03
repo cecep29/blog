@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise'
 
 gem 'bootstrap-sass-rails'
-gem "bootstrap-wysihtml5-rails", "~> 0.3.1.23"
+#gem "bootstrap-wysihtml5-rails", "~> 0.3.1.23"
 gem 'tinymce-rails'
 
 
